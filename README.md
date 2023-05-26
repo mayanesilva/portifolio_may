@@ -3,17 +3,17 @@ Portifólio para documentar o processo de aprendizado da disciplina de programa�
 
 <h1>Atividade 01</h1>
 
-Descrição: 
+Descrição: criar um no projeto no web script para calcular Media ponderada de duas notas 
 
-Dúvida:
+Dúvida: como criar 4 notas e calcular
 
-Solução da dúvida:
+Solução da dúvida: com a ajuda do professor, tirando minhas duvidas 
 
 Utilizando a função document.getElementById()
 
-<h1> Aula do dia    /   /     </h1>
+<h1> Aula do dia   26/05/2023     </h1>
 
-O que eu aprendi?
+O que eu aprendi? conseguir aprende como chamar a função do sevidor ultilizando o gogle.script.run
 
 
 <h1>Atividade 02</h1>
