@@ -16,17 +16,19 @@ O que eu aprendi? conseguir aprende como chamar a função do sevidor ultilizand
 
 <h1>Atividade 02</h1>
 
-Descrição: 
+Descrição: Retorna  do servidor para pagina ultilizando a funçao WithSuccerHandler(function)
 
-Dúvida:
+Dúvida: Como retorna do servido para pagina 
 
-Solução da dúvida:
-
-Utilizando a função document.getElementById()
+Solução da dúvida: comprendi que precisamos do WithSuccerHandler(function) para conseguir
 
 <h1> Aula do dia    /   /     </h1>
 
 O que eu aprendi?
+
+Temos uma função q envia dados ao servido porém para receber precisamos de uma função pra enviar e outra para receber 
+ultilizamos Google. Script.rum.WithSuccessHandler( ) 
+no parâmetro precisamos da função responsável de receber os dados logos depôs é só colar a função q está no servido  e se tiver parâmetro passa os parâmetro caso não tenha só colar o parâmetro vazio
 
 
 <h1>Atividade 03</h1>
