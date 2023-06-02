@@ -36,17 +36,23 @@ no parâmetro precisamos da função responsável de receber os dados, logo depo
 Descrição: Desenvolvemos um projeto, contendo uma página
 web que envie ao servidor, dados de e-mail e senha fornecidos por um usuário
 
-Dúvida: como envie ao servidor dados de e-mail e senha e exibir uma mensagem
+Dúvida: como exibir uma mensagem
 que mostrasse ao usuário se o login foi bem sucedido ou não. 
 
-Solução da dúvida:
+Solução da dúvida: apois colocarmos no codigo.gs que tem como a funcão do doget, que trata-se de uma requisição http do tipo doget, adicionamos:
 
+return 'Login bem sucedido!';
+}else{
+  return 'Login não sucedido!';
+}
+E assim aparecera se deu certo ou nao
+  
 Utilizando a função document.getElementById()
 
-<h1> Aula do dia    /   /     </h1>
+<h1> Aula do dia   02/06/2023  </h1>
 
 O que eu aprendi?
-
+Para desenvolvermos um projeto como esse, precisamos acrescentar a função  google.script.run.withSuccessHandler para que assim possamos enviar os dados e receber o valor de retorno do servido, caso noa utilizássemos, não seria possivel obter valor de retorno do servido.
 
 
 <h1>Atividade 04</h1>
