@@ -5,13 +5,13 @@ Portifólio para documentar o processo de aprendizado da disciplina de programa�
 
 Descrição: criar um no projeto no web script para calcular Media ponderada de duas notas 
 
-Dúvida: como criar 4 notas e calcular
+Dúvida: quais são as 4 notas para calcular.
 
-Solução da dúvida: com a ajuda do professor, tirando minhas duvidas 
+Solução da dúvida: temos q criar uma nota1 e peso1, nota2 e peso2. e assim montar o codigo ultilizando esssas 4 notas 
 
 <h1> Aula do dia   26/05/2023     </h1>
 
-O que eu aprendi? Que ultilizando o gogle.script.run podemos chamar a função do sevidor 
+O que eu aprendi? Que ultilizando o gogle.script.run podemos chamar a função do sevidor e assim mostrar o resultado do calculo das 4 notas.
 
 
 <h1>Atividade 02</h1>
@@ -20,7 +20,7 @@ Descrição: Retorna  do servidor para pagina ultilizando a função WithSuccerH
 
 Dúvida: Como retorna do servido para pagina 
 
-Solução da dúvida: comprendi que precisamos do WithSuccerHandler(function) para conseguir
+Solução da dúvida: comprendi que precisamos do WithSuccerHandler(function) para conseguir executar essa informação
 
 <h1> Aula do dia   01 / 06 / 2023  </h1>
 
@@ -47,8 +47,6 @@ return 'Login bem sucedido!';
 }
 E assim aparecera se deu certo ou nao
   
-Utilizando a função document.getElementById()
-
 <h1> Aula do dia   02/06/2023  </h1>
 
 O que eu aprendi?
