@@ -33,9 +33,11 @@ no parâmetro precisamos da função responsável de receber os dados, logo depo
 
 <h1>Atividade 03</h1>
 
-Descrição: 
+Descrição: Desenvolvemos um projeto, contendo uma página
+web que envie ao servidor, dados de e-mail e senha fornecidos por um usuário
 
-Dúvida:
+Dúvida: como envie ao servidor dados de e-mail e senha e exibir uma mensagem
+que mostrasse ao usuário se o login foi bem sucedido ou não. 
 
 Solução da dúvida:
 
