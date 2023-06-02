@@ -19,32 +19,29 @@ Login.html:
 <html>
   <head>
     <base target="_top">
-  </head>
-  <body>
-    <h1> Login </h1>
-    <form id="login-form">
-      <label for="email">E-mail:</label>
-      <input type="email" id="email" name="email" required><br>
-      <label for="password">Senha:</label>
-      <input type="password" id="password" name="password" required><br>
-      <input type="submit" value="Login">
-    </form>
-
-    <div id="result"></div>
-
     <script>
-      document.getElementById('login-form').addEventListener('submit', function(event) {
-        event.preventDefault();
+      function submitForm() {
         var email = document.getElementById('email').value;
         var password = document.getElementById('password').value;
- 
-        google.script.run.withSuccessHandler(displayResult).checkLogin(email, password);
-      });
-
-      function displayResult(result) {
-        document.getElementById('result').innerHTML = result;
+        
+        google.script.run.withSuccessHandler(displayMessage).checkLogin(email, password);
+      }
+      
+      function displayMessage(result) {
+        var messageElement = document.getElementById('message');
+        messageElement.innerHTML = result ? 'Login bem sucedido!' : 'Login falhou. Verifique o e-mail e a senha.';
       }
     </script>
+  </head>
+  <body>
+    <h1>Login</h1>
+    <form>
+      <label for="email">E-mail:</label>
+      <input type="text" id="email" name="email" required><br>
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password" required><br>
+      <input type="button" value="Login" onclick="submitForm()">
+    </form>
+    <p id="message"></p>
   </body>
-  
 </html>
