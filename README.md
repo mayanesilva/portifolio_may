@@ -55,17 +55,22 @@ Para desenvolvermos um projeto como esse, precisamos acrescentar a função  goo
 
 <h1>Atividade 04</h1>
 
-Descrição: 
+Descrição: Criamos uma funçao para quando emplantarmos, nao ser necessario ficarmos atualizando o URL, pois a propria funçao farar isso.
 
 Dúvida:
+como chamar a funçao que necessitamos, para conseguir execulta a proposta da aula.
 
 Solução da dúvida:
 
-Utilizando a função document.getElementById()
+precisamos do seguinte codigo 
+<? var url= pegarUrl()?>   ( serve para chamara a funçao do URL)
 
-<h1> Aula do dia    /   /     </h1>
+<form action="" method= "post"> (irar preencher a funçao)
+
+<h1> Aula do dia    15/06/2023  </h1>
 
 O que eu aprendi?
+que nao é necessario ficarmos atualizando o link do URL a uma funçao propria para isso que sera no automatico!
 
 
 <h1>Atividade 05</h1>
