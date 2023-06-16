@@ -75,14 +75,22 @@ que nao é necessario ficarmos atualizando o link do URL a uma funçao propria p
 
 <h1>Atividade 05</h1>
 
-Descrição: 
+Descrição: criamos um codigo com a requisiçao post que enviarar ao servidor, e la colhera todos os dados que serar enviado para a planilha do google
 
-Dúvida:
+Dúvida: para quer serve cada parte do codigo, que é preciso para conseduir enviar os dados para planilha do gogle.
 
-Solução da dúvida:
+Solução da dúvida:  
+
+var planilha = SpreadsheetApp.openById ("")  ( ele é necessario para 
 
 Utilizando a função document.getElementById()
 
-<h1> Aula do dia    /   /     </h1>
+<h1> Aula do dia    16/06/2023  </h1>
 
-O que eu aprendi?
+O que eu aprendi? como coseguiremos passar os dados do servidor para a planilha do google, para ser possivel acessar a planilha precisamos do codigo a seguir:
+
+var planilha = SpreadsheetApp.openById ("");  (no parâmetro precisamos adicionar o id da planilha.)
+
+var tabela = planilha.getSheetById ("");  (no parâmetro serar adcionado o nome q colocamos na planilha.)
+
+var appendRow ([])  (no parâmetro colocaremos os valores da variavel que é enviada para o formulario e guardando na planilha.)
