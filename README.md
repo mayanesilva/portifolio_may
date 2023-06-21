@@ -77,9 +77,9 @@ que nao é necessario ficarmos atualizando o link do URL a uma funçao propria p
 
 Descrição: criamos um codigo com a requisiçao post que enviarar ao servidor, e la colhera todos os dados que serar enviado para a planilha do google
 
-Dúvida: para quer serve cada parte do codigo, que é preciso para conseduir enviar os dados para planilha do gogle.
+Dúvida: se cada parte do codigo, que é preciso para conseguir enviar os dados para planilha do gogle, Trabalhava sozinhos?!
 
-Solução da dúvida:  
+Solução da dúvida: para execulta é necessarios dos tres função pois uma interliga as outras
 
 var planilha = SpreadsheetApp.openById ("")  ( ele é necessario para 
 
