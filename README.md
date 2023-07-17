@@ -94,3 +94,116 @@ var planilha = SpreadsheetApp.openById ("");  (no parâmetro precisamos adiciona
 var tabela = planilha.getSheetById ("");  (no parâmetro serar adcionado o nome q colocamos na planilha.)
 
 var appendRow ([])  (no parâmetro colocaremos os valores da variavel que é enviada para o formulario e guardando na planilha.)
+
+
+
+<h1> Atividade 06</h1>
+
+Descrição: Fizemos a atividade Avaliatica, fiquei com a tipo 1
+
+Dúvida: o codigo correto para o codigo gs
+
+Solução da dúvida:
+
+<h1> Aula do dia 20/06/2023 </h1>
+
+oque eu aprendi:
+
+
+
+
+<h1> Atividade 07</h1>
+
+Descrição:
+
+Dúvida:
+
+Solução da dúvida:
+
+<h1> Aula do dia  /  /2023 </h1>
+
+oque eu aprendi:
+
+
+
+<h1> Atividade 08</h1>
+
+Descrição:
+
+Dúvida:
+
+Solução da dúvida:
+
+<h1> Aula do dia  /  /2023 </h1>
+
+oque eu aprendi:
+
+
+
+<h1> Atividade 09</h1>
+
+Descrição:
+
+Dúvida:
+
+Solução da dúvida:
+
+<h1> Aula do dia  /  /2023 </h1>
+
+oque eu aprendi:
+
+
+
+<h1> Atividade 10</h1>
+
+Descrição:
+
+Dúvida:
+
+Solução da dúvida:
+
+<h1> Aula do dia  /  /2023 </h1>
+
+oque eu aprendi:
+
+
+
+<h1> Atividade 11</h1>
+
+Descrição:
+
+Dúvida:
+
+Solução da dúvida:
+
+<h1> Aula do dia  /  /2023 </h1>
+
+oque eu aprendi:
+
+
+
+<h1> Atividade 12</h1>
+
+Descrição:
+
+Dúvida:
+
+Solução da dúvida:
+
+<h1> Aula do dia /  /2023 </h1>
+
+oque eu aprendi:
+
+
+
+<h1> Atividade 13</h1>
+
+Descrição:
+
+Dúvida:
+
+Solução da dúvida:
+
+<h1> Aula do dia   /  /2023 </h1>
+
+oque eu aprendi:
