@@ -99,15 +99,23 @@ var appendRow ([])  (no parâmetro colocaremos os valores da variavel que é env
 
 <h1> Atividade 06</h1>
 
-Descrição: Fizemos a atividade Avaliatica, fiquei com a tipo 1
+Descrição: Desenvolver um projeto Google App
+Script que contenha um formulário HTML com os seguintes campos:
 
-Dúvida: o codigo correto para o codigo gs
+ A distância da casa de Joana até a casa de sua mãe, em km;
+ O consumo de seu carro, em km/litro;
+ O preço da gasolina no posto onde Joana abastece.
+
+
+Dúvida: Estava com duvidas sobre o codigo gs, pois o comando nao estava sendo execultado por conta dele.
 
 Solução da dúvida:
 
 <h1> Aula do dia 20/06/2023 </h1>
 
-oque eu aprendi:
+oque eu aprendi: (toFixed) aprendi que esta função é ultilizada para arredondar o valor desejado.
+                Exemplo: 21.123 , o valor fica 21.12
+
 
 
 
@@ -122,8 +130,7 @@ Solução da dúvida:
 
 <h1> Aula do dia  /  /2023 </h1>
 
-oque eu aprendi:
-
+oque eu aprendi: 
 
 
 <h1> Atividade 08</h1>
