@@ -3,11 +3,11 @@ Portifólio para documentar o processo de aprendizado da disciplina de programa�
 
 <h1>Atividade 01</h1>
 
-Descrição: criar um no projeto no web script para calcular Media ponderada de duas notas 
+Descrição: Criar um no projeto no web script para calcular Media ponderada de duas notas 
 
-Dúvida: quais são as 4 notas para calcular.
+Dúvida: Como sera pedido ao sistema para calcular as 2 notas.
 
-Solução da dúvida: temos q criar uma nota1 e peso1, nota2 e peso2. e assim montar o codigo ultilizando esssas 4 notas 
+Solução da dúvida: Temos que criar uma nota1 e peso1, nota2 e peso2. e assim montar o codigo ultilizando esssas 4 notas 
 
 <h1> Aula do dia   26/05/2023     </h1>
 
@@ -18,7 +18,7 @@ O que eu aprendi? Que ultilizando o gogle.script.run podemos chamar a função d
 
 Descrição: Retorna  do servidor para pagina ultilizando a função WithSuccerHandler(function)
 
-Dúvida: Como retorna do servido para pagina 
+Dúvida: como adiconar esta função ao codigo 
 
 Solução da dúvida: comprendi que precisamos do WithSuccerHandler(function) para conseguir executar essa informação
 
