@@ -3,7 +3,7 @@ Portifólio para documentar o processo de aprendizado da disciplina de programa�
 
 <h1>Atividade 01</h1>
 
-Descrição: Criar um no projeto no web script para calcular Media ponderada de duas notas 
+Descrição: Criar um projeto no web script para calcular Media ponderada de duas notas 
 
 Dúvida: Como sera pedido ao sistema para calcular as 2 notas.
 
@@ -75,19 +75,23 @@ que nao é necessario ficarmos atualizando o link do URL a uma funçao propria p
 
 <h1>Atividade 05</h1>
 
-Descrição: criamos um codigo com a requisiçao post que enviarar ao servidor, e la colhera todos os dados que serar enviado para a planilha do google
+Descrição: Criar um codigo com a requisiçao post que enviarar ao servidor, e la colhera todos os dados que serar enviado para a planilha do google
 
 Dúvida: se cada parte do codigo, que é preciso para conseguir enviar os dados para planilha do gogle, Trabalhava sozinhos?!
 
-Solução da dúvida: para execulta é necessarios dos tres função pois uma interliga as outras
+Solução da dúvida: Para execulta é necessarios dos tres função pois uma interliga as outras:
 
-var planilha = SpreadsheetApp.openById ("")  ( ele é necessario para 
+var planilha = SpreadsheetApp.openById ("")
+
+var tabela = planilha.getSheetByName('tabela_livros')
+
+tabela.appendRow([])
 
 Utilizando a função document.getElementById()
 
 <h1> Aula do dia    16/06/2023  </h1>
 
-O que eu aprendi? como coseguiremos passar os dados do servidor para a planilha do google, para ser possivel acessar a planilha precisamos do codigo a seguir:
+O que eu aprendi? Para coseguiremos passar os dados do servidor para a planilha do google e para ser possivel acessar a planilha, precisamos do codigo a seguir:
 
 var planilha = SpreadsheetApp.openById ("");  (no parâmetro precisamos adicionar o id da planilha.)
 
@@ -107,9 +111,9 @@ Script que contenha um formulário HTML com os seguintes campos:
  O preço da gasolina no posto onde Joana abastece.
 
 
-Dúvida: Estava com duvidas sobre o codigo gs, pois o comando nao estava sendo execultado por conta dele.
+Dúvida: O formulario nao estava recebendo  o conteúdo de um elemento HTML
 
-Solução da dúvida:
+Solução da dúvida: estava faltando o (innerhtml)
 
 <h1> Aula do dia 20/06/2023 </h1>
 
@@ -133,84 +137,5 @@ Solução da dúvida:
 oque eu aprendi: 
 
 
-<h1> Atividade 08</h1>
-
-Descrição:
-
-Dúvida:
-
-Solução da dúvida:
-
-<h1> Aula do dia  /  /2023 </h1>
-
-oque eu aprendi:
-
-
-
-<h1> Atividade 09</h1>
-
-Descrição:
-
-Dúvida:
-
-Solução da dúvida:
-
-<h1> Aula do dia  /  /2023 </h1>
-
-oque eu aprendi:
-
-
-
-<h1> Atividade 10</h1>
-
-Descrição:
-
-Dúvida:
-
-Solução da dúvida:
-
-<h1> Aula do dia  /  /2023 </h1>
-
-oque eu aprendi:
-
-
-
-<h1> Atividade 11</h1>
-
-Descrição:
-
-Dúvida:
-
-Solução da dúvida:
-
-<h1> Aula do dia  /  /2023 </h1>
-
-oque eu aprendi:
-
-
-
-<h1> Atividade 12</h1>
-
-Descrição:
-
-Dúvida:
-
-Solução da dúvida:
-
-<h1> Aula do dia /  /2023 </h1>
-
-oque eu aprendi:
-
-
-
-<h1> Atividade 13</h1>
-
-Descrição:
-
-Dúvida:
-
-Solução da dúvida:
-
-<h1> Aula do dia   /  /2023 </h1>
 
 oque eu aprendi:
