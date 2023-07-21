@@ -20,7 +20,7 @@ Descrição: Retorna  do servidor para pagina ultilizando a função WithSuccerH
 
 Dúvida: como adiconar esta função ao codigo 
 
-Solução da dúvida: comprendi que precisamos do WithSuccerHandler(function) para conseguir executar essa informação
+Solução da dúvida: comprendi que precisamos do  para conseguir executar essa informação
 
 <h1> Aula do dia   01 / 06 / 2023  </h1>
 
@@ -126,7 +126,7 @@ oque eu aprendi: (toFixed) aprendi que esta função é ultilizada para arredond
 
 <h1> Atividade 07</h1>
 
-Descrição:
+Descrição: Criar uma lista de compra com a intenção de 
 
 Dúvida:
 
