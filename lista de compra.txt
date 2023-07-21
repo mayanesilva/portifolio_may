@@ -1,0 +1,79 @@
+codigo gs
+
+function doGet() {
+  return HtmlService.createTemplateFromFile('Formulario').evaluate();
+}
+
+function incluir(nomeArquivo) {
+  return HtmlService.createHtmlOutputFromFile(nomeArquivo).getContent();
+}
+
+
+codigo.HTML 
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <style>
+      input {
+      width: 200px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      border: none;
+      border-bottom: 2px solid red;
+      background-color: #3cbc8d;
+      color: white;
+      box-sizing: border-box;
+      }
+      
+      button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 15px 40px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer
+      }
+      </style>
+    <h1> Formulario de Compra </h1>
+    <form>
+      <label for="produto">Produto:</label>
+      <input type="text" id="produto" name="produto" required><br>
+
+      <label for="quantidade">quantidade:</label>
+      <input type="number" id="quantidade" name="quantidade" required><br>
+
+      <button type="button" onclick="gravarDados()">Inserir</button>
+    </form>
+  
+  <table id="tabela-compras">
+    <tr>
+      <th>Produto</th>
+      <th>Quantidade</th>
+    <tr>
+  </table>
+
+  <script>
+    function gravarDados(){
+            var produto = document.getElementById('produto').value;
+            var quantidade = document.getElementById('quantidade').value;
+            
+            var tabela = document.getElementById('tabela-compras');
+            var linha = tabela.insertRow();
+
+            var celulaProduto = linha.insertCell(0);
+            celulaProduto.innerHTML = produto;
+
+            var celulaquantidade = linha.insertCell(1);
+            celulaquantidade.innerHTML = quantidade;
+        }
+    </script>
+  </body>
+</html>
