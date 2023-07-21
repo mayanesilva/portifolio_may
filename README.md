@@ -20,7 +20,7 @@ Descrição: Retorna  do servidor para pagina ultilizando a função WithSuccerH
 
 Dúvida: como adiconar esta função ao codigo 
 
-Solução da dúvida: comprendi que precisamos do  para conseguir executar essa informação
+Solução da dúvida: comprendi que precisamos adicionr dessa formar  (google.script.run.withSuccessHandler().();) para conseguir executar.
 
 <h1> Aula do dia   01 / 06 / 2023  </h1>
 
@@ -33,13 +33,13 @@ no parâmetro precisamos da função responsável de receber os dados, logo depo
 
 <h1>Atividade 03</h1>
 
-Descrição: Desenvolvemos um projeto, contendo uma página
+Descrição: Desenvolver um projeto, contendo uma página
 web que envie ao servidor, dados de e-mail e senha fornecidos por um usuário
 
-Dúvida: como exibir uma mensagem
+Dúvida: COmo exibir uma mensagem
 que mostrasse ao usuário se o login foi bem sucedido ou não. 
 
-Solução da dúvida: apois colocarmos no codigo.gs que tem como a funcão do doget, que trata-se de uma requisição http do tipo doget, adicionamos:
+Solução da dúvida: Apois colocarmos no codigo.gs que tem como a funcão do doget, que trata-se de uma requisição http do tipo doget, adicionamos:
 
 return 'Login bem sucedido!';
 }else{
@@ -63,6 +63,7 @@ como chamar a funçao que necessitamos, para conseguir execulta a proposta da au
 Solução da dúvida:
 
 precisamos do seguinte codigo 
+
 <? var url= pegarUrl()?>   ( serve para chamara a funçao do URL)
 
 <form action="" method= "post"> (irar preencher a funçao)
@@ -111,7 +112,7 @@ Script que contenha um formulário HTML com os seguintes campos:
  O preço da gasolina no posto onde Joana abastece.
 
 
-Dúvida: O formulario nao estava recebendo  o conteúdo de um elemento HTML
+Dúvida: O formulario nao estava recebendo  o conteúdo do elemento HTML
 
 Solução da dúvida: estava faltando o (innerhtml)
 
@@ -126,16 +127,5 @@ oque eu aprendi: (toFixed) aprendi que esta função é ultilizada para arredond
 
 <h1> Atividade 07</h1>
 
-Descrição: Criar uma lista de compra com a intenção de 
+Descrição: Criar uma lista de compra 
 
-Dúvida:
-
-Solução da dúvida:
-
-<h1> Aula do dia  /  /2023 </h1>
-
-oque eu aprendi: 
-
-
-
-oque eu aprendi:
